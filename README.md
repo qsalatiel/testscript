@@ -17,7 +17,9 @@
   palattine("lead", {
     // need email or phone
     email: "",
-    phone: ""
+    phone: "",
+    // name is optional
+    name: "",
   }, metadata)
 
   // Gets the contact info based on the local fingerprint ID
