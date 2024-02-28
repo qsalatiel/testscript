@@ -5,6 +5,7 @@
 
 
 <script>
+  //  Optional
   var metadata = {}
 
   palattine("ping");
@@ -18,4 +19,4 @@
 ```
 
 ### To set user props via URL
-https://URL.com?plttuid=SET_USER_ID&plttem=SET_USER_EMAIL&plttph=SET_USER_PHONE
+https://URL.com?pltt=SET_USER_ID&email=SET_USER_EMAIL&phone=SET_USER_PHONE
