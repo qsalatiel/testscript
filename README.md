@@ -14,7 +14,16 @@
   
   palattine("custom_event", metadata);
 
-  palattine('get_config')
+  palattine("lead", {
+    // need email or phone
+    email: "",
+    phone: ""
+  }, metadata)
+
+  // Gets the contact info based on the local fingerprint ID
+  palattine("get_contact_info").then(contactInfo => console.log(contactInfo)
+
+  palattine('get_config') // Returns palattine local config
 </script>
 ```
 
