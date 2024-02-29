@@ -24,6 +24,7 @@
       id: ""
     },
     // outside will be passed as metadata
+    any: "thing",
   });
 
   palattine("lead", {
