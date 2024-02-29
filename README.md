@@ -14,6 +14,18 @@
   
   palattine("custom_event", metadata);
 
+  palattine("custom_event_2", {
+    // can pass any user prop here
+    user: {
+      name: "",
+      email: "",
+      phone: "",
+      fingerprint: "", // added automatically but can be overwritten here
+      id: ""
+    },
+    // outside will be passed as metadata
+  });
+
   palattine("lead", {
     // need email or phone
     email: "",
